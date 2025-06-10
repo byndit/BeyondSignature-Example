@@ -1,0 +1,36 @@
+{
+  "id": "0e2c64c6-0081-42f3-be3d-88563f978442",
+  "name": "BeyondSignature for Invoices",
+  "publisher": "BEYONDIT GmbH",
+  "version": "2025.5.0.0",
+  "brief": "Manage your invoices with BeyondSignature in Business Central.",
+  "description": "Visit https://www.beyondit.gmbh/",
+  "url": "https://beyond365.de",
+  "supportedLocales": [
+    "de-DE",
+    "en-US"
+  ],
+  "propagateDependencies": true,
+  "dependencies": [
+    {
+      "id": "f776fc38-ca64-4d43-b868-3fb8c73cd7ff",
+      "name": "BeyondSignature",
+      "publisher": "BEYONDIT GmbH",
+      "version": "2025.0.0.0"
+    }
+  ],
+  "application": "24.0.0.0",
+  "platform": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50241,
+      "to": 50250
+    }
+  ],
+  "runtime": "13.0",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith"
+  ],
+  "target": "Cloud"
+}
