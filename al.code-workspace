@@ -4,7 +4,8 @@
                         "path":  ".AL-Go"
                     },
                     {
-                        "path":  "app"
+						"name": "app",
+                        "path":  "ThirdParties/app"
                     },
                     {
                         "path":  ".alpackages"
