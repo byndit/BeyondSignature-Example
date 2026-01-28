@@ -4,7 +4,7 @@ pageextension 50241 "ABC Posted Sales Invoice" extends "Posted Sales Invoice"
     {
         addbefore("Print_Promoted")
         {
-            actionref("BYD SIG Signature ActionRef"; "ABC Signature") { }
+            actionref("ABC Signature ActionRef"; "ABC Signature") { }
         }
 
         addbefore(Print)
@@ -15,6 +15,7 @@ pageextension 50241 "ABC Posted Sales Invoice" extends "Posted Sales Invoice"
                 Caption = 'Signature';
                 ToolTip = 'Executes the Signature action.';
                 Image = Signature;
+                Visible = VisibleForMobile;
 
                 trigger OnAction()
                 var
