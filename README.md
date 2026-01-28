@@ -16,25 +16,25 @@ The **BeyondSignature for Invoices** extension demonstrates how to integrate wit
 
 The Signature Pad FactBox allows users to capture customer signatures directly on document pages:
 
-![Sales Quote with Signature Pad](app/docs/signature-pad-capture.png)
+![Sales Quote with Signature Pad](ThirdParties/app/docs/signature-pad-capture.png)
 
 ### Custom Report Layout Selection
 
 A custom Word layout extends the standard Sales Quote report to include the captured signature:
 
-![Report Layouts](app/docs/report-layouts.png)
+![Report Layouts](ThirdParties/app/docs/report-layouts.png)
 
 ### Printing with the Signature Layout
 
 Select the custom `SalesQuoteWithSignature.docx` layout when printing:
 
-![Print Dialog](app/docs/print-dialog.png)
+![Print Dialog](ThirdParties/app/docs/print-dialog.png)
 
 ### Final Document Output
 
 The printed document displays the captured signature:
 
-![Sales Quote with Signature](app/docs/printed-document.png)
+![Sales Quote with Signature](ThirdParties/app/docs/printed-document.png)
 
 ## Features
 
